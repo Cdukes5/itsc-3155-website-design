@@ -95,7 +95,7 @@ main > div > h2
     float:left;
 }
 
-#homeHeading
+#aboutHeading
 {
     padding-top: 20px;
     padding-left: 10px;
@@ -272,4 +272,9 @@ input[type=tel]
 {
     text-align: center;
     font-size: x-small;
+}
+
+.removeHyperlink
+{
+    color: black;
 }
