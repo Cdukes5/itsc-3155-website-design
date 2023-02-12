@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="styles/default.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="scripts/slideshow.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <!-- Dynamic option. Remove Header and Footer if not using. -->
+    <div w3-include-html="components/indexHeader.html"></div>
+    <header>
+        <h1>
+            <img alt="logo" id="logo">
+            Website Title Placeholder
+        </h1>
+        <nav>
+            <a href="index.html" id="homeL">
+                <div id="homeLink">Home</div>
+            </a>
+            <a href="about.html">
+                <div>About Us</div>
+            </a>
+            <a href="contact.html">
+                <div>Contact Us</div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshowWrapper">
+        <div class="slider">
+            <div><img alt="slideshow image placeholder" src="" class="slideImage" id="firstImage"></div>
+            <div><img alt="slideshow image placeholder" src="" class="slideImage"></div>
+            <div><img alt="slideshow image placeholder" src="" class="slideImage"></div>
+            <div><img alt="slideshow image placeholder" src="" class="slideImage"></div>
+        </div>
+        </div>
+    </main>
+    <!-- Dynamic option. Remove if not using. -->
+    <div w3-include-html="components/footer.html"></div>
+    <footer>
+        <nav>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS Validation</a>
+            <a href="https://validator.w3.org/check?uri=referer">HTML Validation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <br>
+        <p id="designer">Designed by Collin Dukes</p>
+    </footer>
+    <script>w3.includeHTML();</script>
+
+</body>
+
+</html>
